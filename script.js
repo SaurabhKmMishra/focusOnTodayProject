@@ -3,11 +3,12 @@ const inputFields = document.querySelectorAll('.goal-input');
 const errorLabel = document.querySelector('.error-label');
 const progressLabel = document.querySelector('.progress-label');
 
+
 const progressAmtBar = document.querySelector('.progress-amount');
 const progressTextSpan = document.querySelector('.progress-text');
 const footerQuote = document.querySelector('.quote');
 
-const allGoals =  JSON.parse(localStorage.getItem('allGoals'))||{};
+const allGoals =  JSON.parse(localStorage.getItem('allGoals')) || {};
 
 
 
